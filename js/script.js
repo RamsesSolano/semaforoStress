@@ -13,7 +13,7 @@ $(document).ready( function(){
 			$( '#verde' ).show('slow');
 			$( '#amarillo' ).hide();
 			
-		} else if ( numeroRespuestasPositivas > 3 || numeroRespuestasPositivas <= 5 ) {
+		} else if ( numeroRespuestasPositivas > 3 && numeroRespuestasPositivas <= 5 ) {
 			$("#botonFinalizar").hide('slow');	
 			$( '#formulario' ).hide('slow');
 			$( '#resultados' ).show('slow'); 
