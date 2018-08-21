@@ -24,8 +24,8 @@ $(document).ready( function(){
 			$("#botonFinalizar").hide('slow');	
 			$( '#formulario' ).hide('slow');
 			$( '#resultados' ).show('slow'); 
-			$( '#rojo' ).hide(); 
-			$( '#verde' ).show('slow');
+			$( '#rojo' ).show('slow'); 
+			$( '#verde' ).hide();
 			$( '#amarillo' ).hide();
 		}
 	}
